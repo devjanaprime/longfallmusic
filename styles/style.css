@@ -1,0 +1,231 @@
+body {
+    background-color:#222222;
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Avenir';
+    text-align: center;
+    color: #9B9B9B;
+}
+
+a {
+    color: #9B9B9B;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.5s ease;
+    text-decoration: underline;
+    color: #fbb9c2;
+}
+
+.page_container {
+    width: 100%;
+    height:100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    height: 100vh;
+    display: inline-block;
+    float: left;
+    background-color: #484049;
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    position: absolute;
+}
+
+.pressQuote {
+    padding: 9px 7% 9px 7%;
+}
+
+.left img {
+    vertical-align: middle;
+    width: 65%;
+    padding: 30px 0 30px 0;
+    height: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    float: right;
+    background: url(../images/longfall_background.jpg) no-repeat center right fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+    text-align: middle;
+}
+
+.bottomDiv{
+    float: right;
+}
+
+.rightVertical{
+    height: 50vh;
+}
+
+.right_content {
+    width: 100%;
+
+    display: table-cell;
+    vertical-align: middle;
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    position: absolute;
+    top: 50%;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    padding: 18px, 0, 30px, 0;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+.footer_left {
+    width: 28%;
+    display: inline-block;
+}
+
+.footer_center {
+    width: 40%;
+    min-width: 210px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.footer_right {
+    width: 28%;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Avenir';
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 22px;
+    color: #cdcccc;
+    padding: 0 20px 0 20px;
+}
+
+h1 a {
+    text-decoration: none;
+    border-bottom: 1px solid #cdcccc;
+}
+
+h1 a:hover {
+    color: #fbb9c2;
+    transition: 0.5s ease;
+    text-decoration: none;
+    border-bottom: 6px solid #fbb9c2;
+}
+
+.button {
+    padding: 2px 4px 0 4px;
+    transition: 0.5s ease;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+
+    line-height: 0px;
+
+    border: 1px solid #cdcccc;
+}
+
+.button:hover {
+    color: #FBB9C2;
+    border: 1px solid #fbb9c2;
+} 
+
+
+
+@media screen and (max-width: 1110px) {
+    # {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .left img {
+        padding: 80px 0 80px 0;
+        max-width: 400px;
+    }
+    .left {
+        width: 100%;
+        display: block;
+        position: relative;
+        max-height: 500px;
+    }
+    .right{
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    .right_content {
+        position: relative;
+    }
+    .footer_left, .footer_center, .footer_right {
+        display: inline-block;
+    }
+    .footer_center {
+        width: 40%;
+    }
+    .footer_left, .footer_right {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .left {
+    }
+    .left img {
+        width: 65%;
+    }
+    .right_content {
+        padding-top: 300px;
+        top: auto;
+        transform: auto;
+        position: relative;
+    }
+    .footer {
+        position: absolute;
+        padding-top: 50px;
+    }
+    .footer_center {
+        width: 100%;
+    }
+    .footer_left, .footer_right {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .left img {
+        width: 85%;
+    }
+}

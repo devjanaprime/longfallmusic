@@ -1,0 +1,5 @@
+Erie: https://www.youtube.com/watch?v=At3RfMi8Hgs
+Duluth: https://www.youtube.com/watch?v=IDQrV20Fp6g
+7th St: https://www.youtube.com/watch?v=FevPpTX9bWA
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/At3RfMi8Hgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
